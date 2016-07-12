@@ -67,10 +67,10 @@ initial_theta = zeros(n + 1, 1);
 [cost, grad] = costFunction(initial_theta, X, y);
 
 fprintf('Cost at initial theta (zeros): %f\n', cost);
-fprintf('Gradient at initial theta (zeros): \n');
-fprintf(' %f \n', grad);
+% fprintf('Gradient at initial theta (zeros): \n');
+% fprintf(' %f \n', grad);
 
-fprintf('\nProgram paused. Press enter to continue.\n');
+% fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
 
 
